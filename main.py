@@ -14,8 +14,9 @@ def main(page : Page):
 
     db = Database("data.db")
 
-    # add tables to the database
+    # add users table to database
     db.addTableUser("user")
+    # add posts table to database
     db.addTablePost("post")
 
     def page_change(route):
