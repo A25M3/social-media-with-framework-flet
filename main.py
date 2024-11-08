@@ -1,7 +1,7 @@
 from flet import *
 from views import *
 from database import *
-
+# main function
 def main(page : Page):
     page.title = 'App | Home'
     page.window.width = 500
