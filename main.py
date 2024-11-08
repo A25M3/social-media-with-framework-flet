@@ -14,6 +14,7 @@ def main(page : Page):
 
     db = Database("data.db")
 
+    # add tables to the database
     db.addTableUser("user")
     db.addTablePost("post")
 
